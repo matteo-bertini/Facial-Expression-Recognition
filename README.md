@@ -16,7 +16,7 @@ In particolare si hanno meno immagini di volti appartenenti alla classe "Disgust
 La prima rete implementata è una five-layers-cnn,la cui struttura è la seguente:
 ![flc_struct](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/Five%20Layers%20CNN/flc5.png)\
 Una volta allenata la rete,dopo aver adottato alcune tecniche di tuning degli iperparametri si ottengono i seguenti risultati: 
-train loss: 0.4308 - train accuracy: 0.8481 - val_loss: 0.9865 - val_accuracy: 0.6556 - learning rate: 3.0000e-04
+train loss: 0.4308 - train accuracy: 0.8481 - val_loss: 0.9865 - val_accuracy: 0.6556 - learning rate: 3.0000e-04.\
 Si può visualizzare la progressione di loss ed accuracy durante la fase di allenamento in modo compatto grazie a questi grafici:\
 Loss:\
 ![loss](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/Five%20Layers%20CNN/flc2.png)\
