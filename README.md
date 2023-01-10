@@ -7,3 +7,7 @@ To run the various files of the porject you have to add this [folder](https://dr
 # Exploratory Data Analysis
 This section performs Exploratory Data Analysis on the dataset.
 The analysis is a preliminary tool necessary to understand the structure of the dataset and its particularities (imbalances, NaN values, ...)
+
+# Five-Layers-CNN
+The Five-Layers-CNN.ipynb file implements a 5-layer convolutional neural network whose structure is as follows:
+After adopting hyperparameter tuning strategies, the following results are obtained:
