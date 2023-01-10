@@ -27,7 +27,7 @@ Immagini con emozioni reali:\
 ![reality](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/Five%20Layers%20CNN/flc3.png)\
 Immagini con emozioni predette dalla rete:
 ![pred](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/Five%20Layers%20CNN/flc4.png)\
-Dalle immagini precedenti si notano alcune predzioni errate della rete,ciò è dovuto sia alla sua piccola struttura sia al fatto che alcune emozioni possono essere ambigue ed ogni soggetto le esplicita in modo differente e con sfumature differenti,rendendo il processo di apprendimento più difficoltoso (basta prendere come esempio la figura 4).
+Dalle immagini precedenti si notano alcune predizioni errate della rete,ciò è dovuto sia alla sua piccola struttura,sia al fatto che alcune emozioni possono essere ambigue,ed ogni soggetto le esplicita con sfumature differenti,rendendo il processo di apprendimento più difficoltoso (basta prendere come esempio la figura 4).
 
 # ResNet
 
