@@ -8,7 +8,7 @@ Un esempio descrittivo del dataset (che può essere ottenuto anche nella sezione
 
 # Exploratory Data Analysis
 L'Exploratory Data Analysis è uno strumento essenziale per capire la struttura del dataset e le sue peculiarità(sbilanciamenti fra le classi,valori NaN, ...) e viene implementata dal file `Exploratory_Data_Analysis.ipynb`.\
-Una volta eseguito il notebook si ottiene l'istogramma delle classi, grazie al quale si nota subito che il dataset è sbilanciato: 
+Una volta eseguito il notebook si ottiene l'istogramma delle classi, grazie al quale si nota subito che il dataset è sbilanciato:\
 ![classes_histogram](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/Exploratory%20Data%20Analysis/eda2.png)\
 In particolare si hanno meno immagini di volti appartenenti alla classe "Disgust" , quindi ci si aspetta che le varie reti neurali implementate non saranno in grado di riconoscere la classe efficientemente rispetto alle altre.
 
