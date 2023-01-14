@@ -4,15 +4,16 @@
 
 Per eseguire correttamente i file di questa repository è necessario aggiungere al proprio drive questa [cartella](https://drive.google.com/drive/folders/1WnDjOJArsUH-G_ffOXXO7D7dZCs9lLyH?usp=sharing).
 La cartella contiene il dataset (il quale può essere scaricato [qui](https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data)) ed i vari modelli allenati delle reti proposte.\
-Un esempio descrittivo del dataset (che può essere ottenuto anche nella sezione successiva) è il seguente:
-![Images_random_sample](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/Exploratory%20Data%20Analysis/eda1.png)
 
 # Exploratory Data Analysis
-Exploratory data analysis is an essential tool for analyzing the dataset and understanding its peculiarities.\ 
-Thanks to it, it's possible to grasp important aspects of the dataset such as imbalances between classes, missing values, etc.\
-The `Exploratory_Data_Analysis.ipynb` file implements the EDA on the dataset, displaying among other things a sample of images and the histogram of the classes, which allows us to understand how these are distributed.\
-![classes_histogram](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/Exploratory%20Data%20Analysis/eda2.png)\
-In particolare si hanno meno immagini di volti appartenenti alla classe "Disgust" , quindi ci si aspetta che le varie reti neurali implementate non saranno in grado di riconoscere la classe efficientemente rispetto alle altre.
+Exploratory data analysis is an essential tool for analyzing the dataset and understanding its peculiarities.\
+Thanks to it, it's possible to grasp important aspects of the dataset such as imbalances between classes, missing values, etc.
+
+The `Exploratory_Data_Analysis.ipynb` file implements the EDA on the dataset, displaying among other things a sample of images and the histogram of the classes, which allows us to understand how these are distributed.
+
+![EDA_image1](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/EDA.png)
+
+In particular, looking at the generated histogram of the classes, it can be seen that the "disgust" class has far fewer images than the other classes, so it will be necessary to do data augmentation to balance the dataset and efficiently train the implemented models.
 
 # Five-Layers-CNN
 La prima rete implementata è una five-layers-cnn,la cui struttura è la seguente:
