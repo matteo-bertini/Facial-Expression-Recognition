@@ -20,6 +20,21 @@ In particular, looking at the generated histogram of the classes, it can be seen
 
 # Five-Layers-CNN
 
-# ResNet
+The `Five-Layers-CNN` file implements a 5-layers convolutional neural network (whose structure is described in this pdf).\
+The learning curves related to accuracy and loss are shown below:\
+\
+![FLCNN_image1](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/FLCNN_lc.png)
+\
+After a tuning phase on the dropout rate, leaning rate, L2 regularization rate and batch size, the following results were achieved:\
+                              training accuracy: 0.6821 | validation accuracy: 0.5602 | test accuracy: 0.5548\
+The confusion matrix is shown below:\
+\
+![FLCNN_image1](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/FLCNN_cm.png)\
+Detailed analyzes of the confusion matrix, learning curves and classification report are available in the .ipynb file.
+
+                          
+
+# VGG16
+
 
 
