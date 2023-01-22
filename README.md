@@ -20,13 +20,13 @@ In particular, looking at the generated histogram of the classes, it can be seen
 
 # Five-Layers-CNN
 
-The `Five-Layers-CNN` file implements a 5-layers convolutional neural network (whose structure is described in this pdf).\
+The `Five-Layers-CNN.ipynb` file implements a 5-layers convolutional neural network (whose structure is described in this pdf).\
 The learning curves related to accuracy and loss are shown below:\
 \
 ![FLCNN_image1](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/FLCNN_lc.png)
 \
 After a tuning phase on the dropout rate, leaning rate, L2 regularization rate and batch size, the following results were achieved:\
-                              training accuracy: 0.6821 | validation accuracy: 0.5602 | test accuracy: 0.5548\
+                              __training accuracy: 0.6821 | validation accuracy: 0.5602 | test accuracy: 0.5548__\
 The confusion matrix is shown below:\
 \
 ![FLCNN_image1](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/FLCNN_cm.png)\
@@ -35,6 +35,16 @@ Detailed analyzes of the confusion matrix, learning curves and classification re
                           
 
 # VGG16
+The file  `VGG16.ipynb` implements a VGG16 (structure of which is described here).\
+After a network tuning phase and after making some changes in the net structure, the following results were achieved:\
+__training accuracy: 0.7718 | validation accuracy: 0.6217 | test accuracy: 0.60__
+\
+The graphs of the learning curves and the confusion matrix are shown below.\
+A detailed analysis of these and of the classification report is contained in the .ipynb file.
+
+![VGG16](https://github.com/matteo-bertini/Facial-Expression-Recognition/blob/main/data/VGG16.png)
+
+
 
 
 
